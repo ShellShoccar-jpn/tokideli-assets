@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="190" viewBox="0 0 820 190" role="img" aria-label="tokideli">
-  <rect width="820" height="190" rx="14" fill="#0d1117"/>
-  <rect x="1" y="1" width="818" height="188" rx="13" fill="none" stroke="#30363d" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="190" viewBox="0 0 900 190" role="img" aria-label="tokideli">
+  <rect width="900" height="190" rx="14" fill="#0d1117"/>
+  <rect x="1" y="1" width="898" height="188" rx="13" fill="none" stroke="#30363d" stroke-width="2"/>
 
   <!-- delivery rider icon: a cyclist carrying a stopwatch like a food-delivery backpack -->
   <g transform="translate(10,12) scale(0.72)">
