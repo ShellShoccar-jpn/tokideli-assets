@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="180" viewBox="0 0 760 180" role="img" aria-label="tokideli">
+  <rect width="760" height="180" rx="14" fill="#0d1117"/>
+  <rect x="1" y="1" width="758" height="178" rx="13" fill="none" stroke="#30363d" stroke-width="2"/>
+
+  <!-- clock icon -->
+  <g transform="translate(70,90)">
+    <circle r="52" fill="#161b22" stroke="#58a6ff" stroke-width="4"/>
+    <circle r="3.5" fill="#58a6ff"/>
+    <!-- hour marks -->
+    <g stroke="#58a6ff" stroke-width="3" stroke-linecap="round">
+      <line x1="0" y1="-44" x2="0" y2="-38"/>
+      <line x1="0" y1="44" x2="0" y2="38"/>
+      <line x1="-44" y1="0" x2="-38" y2="0"/>
+      <line x1="44" y1="0" x2="38" y2="0"/>
+    </g>
+    <!-- hands: fixed at a precise, deliberate angle -->
+    <line x1="0" y1="0" x2="0" y2="-32" stroke="#e6edf3" stroke-width="4" stroke-linecap="round"/>
+    <line x1="0" y1="0" x2="26" y2="14" stroke="#3fb950" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- wordmark -->
+  <g font-family="'DejaVu Sans Mono','Courier New',monospace" font-weight="bold">
+    <text x="150" y="86" font-size="46" fill="#e6edf3">toki<tspan fill="#3fb950">deli</tspan></text>
+    <text x="150" y="118" font-size="17" fill="#8b949e" font-weight="normal">POSIX commands that deliver precise timing to your shell</text>
+  </g>
+
+  <!-- prompt accent -->
+  <g font-family="'DejaVu Sans Mono','Courier New',monospace" font-size="15" fill="#3fb950">
+    <text x="150" y="146">$ cat data | valve -l 1s</text>
+  </g>
+</svg>
