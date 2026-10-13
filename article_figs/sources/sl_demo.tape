@@ -1,0 +1,18 @@
+# sl_demo.tape - regenerate ../images/sl_demo.gif with:
+#   vhs sl_demo.tape
+# (run from article_figs/sources/; requires the vhs/ttyd/ffmpeg tools and
+#  "sl" on PATH. See ../../demo.tape for how this kind of recording is
+#  produced without root access.)
+
+Output ../images/sl_demo.gif
+
+Set Shell "bash"
+Set FontSize 16
+Set Width 900
+Set Height 560
+Set Padding 20
+Set Theme "Dracula"
+
+Type "sh sl_demo.sh"
+Enter
+Sleep 8000ms
